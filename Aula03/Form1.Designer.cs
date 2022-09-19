@@ -31,8 +31,8 @@
             this.btPessoa = new System.Windows.Forms.Button();
             this.btEndereco = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btSobre = new System.Windows.Forms.Button();
             this.btPagDev = new System.Windows.Forms.Button();
+            this.btSobre = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +44,7 @@
             this.btPessoa.TabIndex = 0;
             this.btPessoa.Text = "Pessoa";
             this.btPessoa.UseVisualStyleBackColor = true;
+            this.btPessoa.Click += new System.EventHandler(this.btPessoa_Click);
             // 
             // btEndereco
             // 
@@ -66,15 +67,6 @@
             this.panel1.Size = new System.Drawing.Size(497, 278);
             this.panel1.TabIndex = 2;
             // 
-            // btSobre
-            // 
-            this.btSobre.Location = new System.Drawing.Point(49, 149);
-            this.btSobre.Name = "btSobre";
-            this.btSobre.Size = new System.Drawing.Size(104, 62);
-            this.btSobre.TabIndex = 2;
-            this.btSobre.Text = "Página de Sobre";
-            this.btSobre.UseVisualStyleBackColor = true;
-            // 
             // btPagDev
             // 
             this.btPagDev.Location = new System.Drawing.Point(226, 149);
@@ -83,7 +75,17 @@
             this.btPagDev.TabIndex = 3;
             this.btPagDev.Text = "Página do Desenvolvedor";
             this.btPagDev.UseVisualStyleBackColor = true;
-            this.btPagDev.Click += new System.EventHandler(this.button2_Click);
+            this.btPagDev.Click += new System.EventHandler(this.btPagDev_Click);
+            // 
+            // btSobre
+            // 
+            this.btSobre.Location = new System.Drawing.Point(49, 149);
+            this.btSobre.Name = "btSobre";
+            this.btSobre.Size = new System.Drawing.Size(104, 62);
+            this.btSobre.TabIndex = 2;
+            this.btSobre.Text = "Página de Sobre";
+            this.btSobre.UseVisualStyleBackColor = true;
+            this.btSobre.Click += new System.EventHandler(this.btSobre_Click);
             // 
             // Inicial
             // 

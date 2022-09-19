@@ -23,9 +23,21 @@ namespace Aula03
             f.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btPessoa_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Show();
+        }
+
+        private void btSobre_Click(object sender, EventArgs e)
         {
 
         }
+    
+    private void btPagDev_Click(object sender, EventArgs e)
+        {
+           
+        }
+
     }
 }

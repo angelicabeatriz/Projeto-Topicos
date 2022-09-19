@@ -16,5 +16,15 @@ namespace Aula03
         {
             InitializeComponent();
         }
+
+        private void tbNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
